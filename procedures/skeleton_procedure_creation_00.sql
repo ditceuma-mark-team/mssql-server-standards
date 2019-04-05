@@ -6,18 +6,17 @@ if not object_id('procedure_default') is null
 go
 create procedure dbo.procedure_default (
     
-    --//parametros
-    @begin  int
+  --//parametros
+  @begin  int
 
-    --,@param0 int
-    --,@param1 varchar(xvalue)
-    --,@param2 bigint
-    --,@param3 bit
+  --,@param0 int
+  --,@param1 varchar(xvalue)
+  --,@param2 bigint
+  --,@param3 bit
 
 )
 as
 begin
-  exec dbo.fc_log_print @@procid, 'inicio';
   
   declare @codret     int; --//codigo  retorno;
   declare @ret_sucess int; --//retorno sucesso;
@@ -62,8 +61,6 @@ begin
          rollback tran
      end;
   end;
-  
-  exec dbo.fc_log_print @@procid, 'final';
   
   return @codret
 end;

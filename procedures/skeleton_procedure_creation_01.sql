@@ -5,11 +5,10 @@ if not object_id('procedure_default') is null
   drop procedure dbo.procedure_default
 go
 create procedure dbo.procedure_default (
-    @pro00_begin int
+  @pro00_begin int
 )
 as
 begin
-  exec dbo.fc_log_print @@procid, 'inicio';
 
   declare @codret int;
 
@@ -60,8 +59,6 @@ begin
       end;
     end;
   end;
-  
-  exec dbo.fc_log_print @@procid,'final',@codret;
   
   return @codret
 end;
