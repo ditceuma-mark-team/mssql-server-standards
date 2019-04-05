@@ -1,3 +1,3 @@
-### SQL Sever 101
+### NTI Ceuma SQL Standards
 
-Estes são meus scripts, consultas e skeletons usando SQL e TransactSQL para o Microsoft SQL Server.
+Algumas formas simples e manuteníveis de criar e alterar algumas estruturas em Bancos de Dados SQL Server.
