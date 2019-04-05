@@ -1,8 +1,16 @@
 ### NTI Ceuma SQL Standards
 
-Algumas formas simples e manuteníveis de criar e alterar algumas estruturas em Bancos de Dados SQL Server.
+*Algumas formas simples e manuteníveis de criar e alterar algumas estruturas em Bancos de Dados SQL Server.*
 
-Algumas coisas que você pode encontrar aqui:
+### Como usar isto
+
+Copie os arquivos que você precisar para seu editor, client ou SGBD SQL.
+
+Faça as alterações necessárias nos nomes dos campos e execute toda ou somente parte das instruções SQL que precisar.
+
+--------------------------------------------
+
+**Algumas coisas que você pode encontrar aqui:**
 
 ## [Procedures](procedures)
 
