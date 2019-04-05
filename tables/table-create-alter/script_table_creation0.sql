@@ -38,7 +38,7 @@ if exists(select 1 from sys.indexes s where s.name='id_index_003')
 go
 
 --//criacao dos clusters
---//ao ser criado um indice clusterizado em uma tabela, seja ele unique ou nao, não é possivel mais criar outro clusterizado
+--//ao ser criado um indice clusterizado em uma tabela, seja ele unique ou nao, nao e possivel mais criar outro clusterizado
 create unique clustered index id_index_001 on table_name(campo_tabela01,campo_tabela02,campo_tabela_nn,...)--//n's campos...
 go
 
@@ -47,7 +47,7 @@ go
 
 --//esses dois ultimos sao iguais
 /*
-Um campo criado com o parametro 'nonclustered index' tem a mesma funcionalidade(é a mesma coisa), que o campo criado com o paramentro 'index'
+Um campo criado com o parametro 'nonclustered index' tem a mesma funcionalidade(e a mesma coisa), que o campo criado com o paramentro 'index'
 */
 
 create     nonclustered index id_index_003 on table_name(campo_tabela)

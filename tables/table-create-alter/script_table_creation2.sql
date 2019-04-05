@@ -115,6 +115,7 @@ go
 --go
 --use database_name1
 --go
+--sp_refreshview atualiza a view, sem alterar a forma como ela foi criada, que referencia a tabela, caso ela exista.
 --sp_refreshview table_name1
 --ou
 --alter view table_name1 as select * from database_name0.dbo.table_name0 (nolock)
@@ -125,5 +126,4 @@ go
 --select * from table_name
 --select * from table_name
 -----------------------------------------------------------------------------------
-
 
