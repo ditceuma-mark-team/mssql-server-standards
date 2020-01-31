@@ -15,7 +15,7 @@
 
 ## Algumas coisas que você pode encontrar aqui
 
-### [Criação de Banco de Dados](database.md)
+### [Criação de Banco de Dados](database)
 
 ### [Procedures](procedures)
 
