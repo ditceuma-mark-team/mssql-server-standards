@@ -1,28 +1,31 @@
 ## DIT Ceuma SQL Standards
 
-*Algumas formas simples e manuteníveis de criar e alterar algumas estruturas em Bancos de Dados SQL Server.*
+<p align="center">
+    <img src="img/mark-logo.png" alt="Mark Team Logo" height="200" width="200">
+    <p align="center"><i>Algumas formas simples e manuteníveis de criar e alterar algumas estruturas em Bancos de Dados usando SQL Server.</i></p>
+</p>
 
 ### Como usar isto
 
-1. Copie os arquivos que você precisar para seu editor, client ou SGBD SQL.
-2. Faça as alterações necessárias nos nomes dos campos e execute toda ou somente parte das instruções SQL que precisar.
-3. Salve o arquivo modificado, para enviá-lo posteriormente para o time de **DBA's**, este aquivo será analisado e executado nos servidores de produção.
+1. Copie os arquivos que você precisar para seu editor, *client* ou SGBD SQL.
+2. Faça as alterações necessárias nos nomes dos campos ou parâmetros e execute toda ou somente parte das instruções SQL que precisar.
+3. Salve o arquivo modificado, para enviá-lo posteriormente para o time de **DBA's**, este aquivo será analisado e executado nos servidores de necessários.
 
---------------------------------------------
+------------------------------------------------------
 
-**Algumas coisas que você pode encontrar aqui:**
+## Algumas coisas que você pode encontrar aqui
 
-## [Procedures](procedures)
+### [Procedures](procedures)
 
 Estruturas para criação de procedures.
 
-## Tabelas
-
-### [Criação de Tabelas](tables/table-create-alter)
+### Tabelas
 
 Estruturas para criação de tabelas.
 
-### Outras manutenções
+#### [Criação de Tabelas](tables/table-create-alter)
+
+## Outras manutenções
 
 [Estrutura para criação de indice em uma tabela.](tables/create_index_on_table.sql)
 
