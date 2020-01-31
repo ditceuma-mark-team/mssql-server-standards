@@ -15,6 +15,8 @@
 
 ## Algumas coisas que você pode encontrar aqui
 
+### [Criação de Banco de Dados](database)
+
 ### [Procedures](procedures)
 
 Estruturas para criação de procedures.
@@ -33,4 +35,8 @@ Estruturas para criação de tabelas.
 
 [Estrutura para criação de views a partir de uma consulta sql.](tables/create_views_from_query.sql)
 
-## [LICENSE MIT](LICENSE)
+### Como contribuir
+
+Caso você identifique algum problema, tenha alguma dúvida ou queria deixar sugestão, use o espaço das [issues](https://github.com/ditceuma-mark-team/mssql-server-standards/issues) para isso. Fique à vontade para colaborar. :)
+
+### [LICENSE MIT](LICENSE)
