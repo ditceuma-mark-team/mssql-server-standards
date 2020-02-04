@@ -16,6 +16,9 @@ A seguir, algumas coisas que você deve levar em consideração no momento que v
     Jeito não legal:
 
     ex: `BDAGLA   -> O que significa isso?`
+
         `BDAPIS   -> APIs de quê, referentes a quê?`
+
         `BDPLANOP -> Que plano? Plano de quê?`
+        
         `DBGLOBAL -> Global o quê?`
