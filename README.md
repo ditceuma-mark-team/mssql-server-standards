@@ -5,6 +5,8 @@
     <p align="center"><i>Algumas formas simples e manuteníveis de criar e alterar algumas estruturas em Bancos de Dados usando SQL Server.</i></p>
 </p>
 
+*Este repositório pode sofrer alterações sem aviso prévio, para receber notificações de alterações basta clicar em "watching" no topo da página. Alterações significativas, serão notificadas ao time.*
+
 ### Como usar isto
 
 1. Copie os arquivos que você precisar para seu editor, *client* ou SGBD SQL.
@@ -15,7 +17,7 @@
 
 ## Algumas coisas que você pode encontrar aqui
 
-### [Criação de Banco de Dados](database)
+### [Criação de Banco de Dados](database.md)
 
 ### [Procedures](procedures)
 
