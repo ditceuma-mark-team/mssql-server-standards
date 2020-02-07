@@ -13,7 +13,6 @@ create procedure dbo.procedure_default (
   --,@param1 varchar(xvalue)
   --,@param2 bigint
   --,@param3 bit
-
 )
 as
 begin
@@ -21,18 +20,22 @@ begin
   declare @codret     int; --//codigo  retorno;
   declare @ret_sucess int; --//retorno sucesso;
   declare @ret_notexe int; --//retorno nao executado;
+
+  --//Ou declare com valores iniciais setados
+  --//declare @ret_sucess int=000000;
+  --//declare @ret_notexe int=000000;
   
   select
   @ret_sucess=000000,
   @ret_notexe=000000;
 
-  --select    
-  --    codfil=isnull(h.value('@codfil','int'           ),00)   
-  --  , codvar=isnull(h.value('@codvar','int'           ),00)
-  --  , codkit=isnull(h.value('@codkit','int'           ),00)
-  --  , prokit=isnull(h.value('@prokit','int'           ),00)
-  --  , qtdkit=isnull(h.value('@qtdkit','numeric(15,5)' ),00)
-  --from @kit00_xml.nodes('/row') as vai(h)         
+  --select
+  --    field_name=isnull(h.value('@field_name','int'           ),00)
+  --  , field_name=isnull(h.value('@field_name','int'           ),00)
+  --  , field_name=isnull(h.value('@field_name','int'           ),00)
+  --  , field_name=isnull(h.value('@field_name','int'           ),00)
+  --  , field_name=isnull(h.value('@field_name','numeric(15,5)' ),00)
+  --from tbl_name tbl_alias
 
   if 0=1
   begin

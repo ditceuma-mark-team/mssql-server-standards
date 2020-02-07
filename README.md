@@ -27,11 +27,11 @@ Estruturas para criação de procedures.
 
 Estruturas para criação de tabelas.
 
-#### [Criação de Tabelas](tables/table-create-alter)
+#### [Criação de Tabelas](tables)
 
 ## Outras manutenções
 
-[Estrutura para criação de indice em uma tabela.](tables/create_index_on_table.sql)
+[Estrutura para criação de índice em uma tabela.](tables/create_index_on_table.sql)
 
 [Estrutura para criação de views para tabelas.](tables/create_views_for_table.sql)
 
