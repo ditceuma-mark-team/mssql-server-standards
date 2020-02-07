@@ -45,7 +45,7 @@ fórmula: `prefixo + vw + numero sequencial`.
 - [A partir de uma tabela](create_views_for_table.sql)
 - [A partir de uma query](create_views_from_query.sql)
 
-#### Criação de Primarys Keys
+#### Criação de Primarys Keys e Foreing Keys
 
 Por padrão convencional, a primary key de uma tabela é simplesmente o campo `id` desta. Os novas tabelas devem simplesmente criar o primary key da tabela como `id` se o relacionamento não estiver complicadamente atrelado.
 
