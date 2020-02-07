@@ -38,4 +38,5 @@ A seguir, algumas coisas que você deve levar em consideração no momento que v
 
 2. UPPERCASE: os nomes do banco devem ser sempre `UPPERCASE`.
 3. No Separate: os banco de dados não devem ser separados por `underline(_)`. Devem sempre ter um nome único totalmente junto.
+
     ex: `DBNOMEDOBANCODEDADOS`
