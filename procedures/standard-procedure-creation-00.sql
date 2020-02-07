@@ -68,3 +68,8 @@ begin
   return @codret
 end;
 go
+
+use db_name
+go
+exec procedure_default 0;
+go
