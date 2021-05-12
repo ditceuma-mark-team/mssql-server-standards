@@ -17,6 +17,8 @@
 
 ## Algumas coisas que você pode encontrar aqui
 
+### [Modelo de solicitação para o time de Banco de Dados](opening-a-ticket/README.md)
+
 ### [Criação de Banco de Dados](database.md)
 
 ### [Procedures](procedures)
